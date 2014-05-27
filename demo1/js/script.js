@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	console.log = function(){};
 	function toggle_details(e) {
 		var t = $(e.target).attr('data-more');
@@ -37,7 +38,7 @@ $(document).ready(function() {
 		$('#' + t).toggle();
 
 		var src = $(e.target).attr('src');
-		console.log(src);
+		
 		if ( $(e.target).hasClass('glyphicon-chevron-down')) {
 			$(e.target).removeClass('glyphicon-chevron-down');
 			$(e.target).addClass('glyphicon-chevron-up');
@@ -58,14 +59,16 @@ $(document).ready(function() {
 		$('#sml-hotdog').collapse('hide')
 		    // make sure the details div is open. 
 		    if ($(e.target).attr('id') === 'aboutitem-menu') {
+
 			var e2 = jQuery.Event( "click" );
 			e2.target = $('#aboutclick1')[0];
 
 			e2.currentTarget = e2.target;
-
+			
 			// trigger an artificial click event
-						jQuery( "#aboutclick" ).trigger( e2 );
-
+			 $( "#aboutclick" ).trigger( e2 );
+			 //			 $('#map').scrollIntoView();	
+		
 		    }
 
 	    })
