@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SML CCL</title>
+<link rel='stylesheet' id='style-css' href='style.css' type='text/css' media='all' />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<!--
+<script src="js/Parallaxjs/parallax.js"></script>
+-->
+<script type="text/javascript" src="js/jpara/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jpara/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jpara/jquery.scrollTo-1.4.2-min.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h4>
+			<a href="http://www.sciencemuseum.org.uk/visitmuseum/plan_your_visit/lates.aspx">
+			Sml</a>
+			<a href="http://citizencyberlab.eu">
+			 Ccl</a>
+			 <a href="http://citizencyberlab.eu">Tmc</a> 
+			 <a href="http://citizencyberlab.eu/sml2014">About</a>
+			 </h4>
+		</div>
+		<div id="content">
+			<div id="navgrid" class="section s3">				
+			  <div id="subtitles2">
+					<h2>Welcome to Hands-On Citizen Science!</h2>
+					<div class="snippet">An image would work well here w/ overlay...</div>
+					<div class="section-foot">Scrooooll down to see our challenges..</div>
+				</div>
+					
+			<div class="clearboth"></div>
+	
+			</div>
+			<div name="geotag" id="geotag" class="section s1">
+				<div class="snippet">
+					<!-- challenges should be below the line -- general description above -->
+					<h1>Identify!</h1>
+				
+					<div class="strapline">
+						
+						Help the UN supply
+						water  in Yemen and control flooding in Yamuna. 
+						
+						<div class="moreclick">
+					<img data-more="geotagx-details" src="img/arrowbottom2.png" />
+				</div>	
+				
+					</div>
+				</div>
+				<div id="geotagx-details" class="details snippet">
+					<h2>Yemen</h2>
+					<img src="img/unitar1.png" width=200></img>
+					<p>In Yemen, UNOSAT is helping an NGO to improve water usage by mapping agricultural areas using sattelite imagery.
+						Help us find photos from the web using the firefox Geotag-X plugin. Photos or videos of coffee and qat (also spelt
+						khat) crops in the area are particularly helpful, as well as any assessment of soil conditions or drought stress.</p>
+					<p>With your help, UNOSAT can quickly build a photo library to assist with satellite imagery interpretation.</p>
+				</div>
+			</div>
+			<div id="heracoli" class="section s4">
+				<div class="snippet">
+				<h1>Evolve!</h1>
+					<div class="strapline">
+					 Turn into a Superbug. 
+					</div>
+				
+				<div class="moreclick">
+					<img data-more="heracoli-details" src="img/arrowbottom2.png" />
+				</div>	
+				</div>
+				<div id="heracoli-details" class="details snippet">
+				<h1>Hera.coli challenge</h1>
+				<p>Text here eventually...</p>
+				</div>
+					
+				
+			</div>
+			<div class="section s3">
+				<div class="snippet">
+				<h1>Smash!</h1>
+					<div class="strapline">
+					Run your own collider with the CERN Virtual Atom Smasher. 
+					</div>
+					<div class="moreclick">
+					<img data-more="cern-details" src="img/arrowbottom2.png" />
+				</div>	
+				</div>
+				<div id="cern-details" class="details snippet">
+				<h1>Virtual Atom Smasher</h1>
+				<p>Text here eventually...</p>
+				</div>
+			</div>
+			<div class="section s5">
+				<div class="snippet">
+				<h1>Learn!</h1>
+					<div class="strapline">
+					Are you a citizen scientist?
+					</div>
+					<div class="moreclick">
+					<img data-more="unige-details" src="img/arrowbottom2.png" />
+				</div>	
+				</div>
+				<div id="unige-details" class="details snippet">
+				<h1>Explore the world around you. </h1>
+				<p>Text here eventually...</p>
+				</div>
+			</div>
+			<div class="section s1">
+				<div class="snippet">
+				<h1>Hack!</h1>
+					<div class="strapline">
+					Wire up a sensor.
+					</div>
+					<div class="moreclick">
+					<img data-more="hack-details" src="img/arrowbottom2.png" />
+				</div>	
+				</div>
+				<div id="hack-details" class="details snippet">
+				<h1>Are you cut out for hacking?  </h1>
+				<p>Text here eventually...</p>
+				</div>
+			</div
+			
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>

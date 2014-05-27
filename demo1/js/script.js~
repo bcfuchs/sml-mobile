@@ -1,0 +1,86 @@
+$(document).ready(function() {
+
+	function toggle_details(e) {
+		var t = $(e.target).attr('data-more');
+		$('#' + t).toggle();
+
+		var src = $(e.target).attr('src');
+		console.log(src);
+		if (src == 'img/arrowbottom2.png') {
+			$(e.target).attr('src', 'img/arrowtop2.png');
+
+		}
+		if (src == 'img/arrowtop2.png') {
+			$(e.target).attr('src', 'img/arrowbottom2.png');
+
+		}
+	}
+	function debounce(fun, mil) {
+		var timer;
+		return function() {
+			clearTimeout(timer);
+			timer = setTimeout(function() {
+				fun();
+			}, mil);
+		};
+	}
+
+	$(".moreclick3").click(function(e) {
+		if ( $(e.target).hasClass('glyphicon-chevron-down')) {
+			$(e.target).removeClass('glyphicon-chevron-down');
+			$(e.target).addClass('glyphicon-chevron-up');
+		    }
+		    else 
+			{
+			$(e.target).removeClass('glyphicon-chevron-up');
+			$(e.target).addClass('glyphicon-chevron-down');
+
+		}
+	    });
+
+	$(".moreclick").click(function(e) {
+		var f = function() {
+		var t = $(e.target).attr('data-more');
+		$('#' + t).toggle();
+
+		var src = $(e.target).attr('src');
+		console.log(src);
+		if ( $(e.target).hasClass('glyphicon-chevron-down')) {
+			$(e.target).removeClass('glyphicon-chevron-down');
+			$(e.target).addClass('glyphicon-chevron-up');
+		    }
+		    else 
+			{
+			$(e.target).removeClass('glyphicon-chevron-up');
+			$(e.target).addClass('glyphicon-chevron-down');
+
+		}
+		
+		}
+		f();
+	});
+	$('.sml-navbar-collapse').click(function(e) {
+		$('.sml-navbar-collapse').addClass('collapse');
+		console.log('hi there');
+
+	    })
+
+	if ($("#navgrid").css("min-height") != "240px" ){
+
+	    	$('#navgrid').parallax("100%",0.9);
+	$('#geotag').parallax("50%", 0.1);
+	$('#heracoli').parallax("50%", 0.1);
+
+	}
+	//iphone
+setTimeout(function(){
+		// Hide the address bar!
+	alert('ok2');
+	$('body').scrollTop(1);
+		window.scrollTo(0, 1);
+	    }, 0);
+
+});
+
+	
+    

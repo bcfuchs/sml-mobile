@@ -1,0 +1,379 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 300;
+	src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	src: local('Open Sans Semibold Italic'),
+		local('OpenSans-SemiboldItalic'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff)
+		format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+		url(https://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff)
+		format('woff');
+}
+
+body {
+	font-size: 1rem;
+	color: #343534;
+	background-color: black;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,img,button,input,select,textarea {
+	margin: 0;
+	padding: 0;
+}
+
+#header h4 {
+	color: silver;
+	font-variant: small-caps;
+}
+#header a {
+	text-decoration:none;
+	
+}
+
+#header a:hover {
+color:white;	
+	
+}
+
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a { //
+	color: white;
+	color: black;
+}
+
+#header {
+	background-color: gray;
+	color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	clear: both;
+	padding: 0 20px 0 20px;
+	border-bottom: thin solid black;
+}
+
+#wrapper { 
+	 max-width: 920px;
+	margin: auto;
+}
+
+#content a {
+
+text-decoration: underline;
+color: blue;
+}
+@media only screen and (max-width: 1140px) {
+#wrapper {
+	 max-width: 200px;
+
+}
+}
+#navgrid {
+
+		background-image:url('img/hack_2.jpg');
+		height: 200px;
+		background-repeat: no-repeat;;
+
+}
+
+#navgrid h1 {
+
+	 font-weight: bold;
+
+}
+	#subtitles {
+		position: absolute;
+		top: 200px;
+		left: 0;
+		width: 100%;
+		color: white;;
+	}
+
+#navgrid .row {
+	width: 100%;
+	padding: 0 auto;
+	float: left;
+}
+
+#content {
+max-width: 940px;
+margin: 0 auto;
+}
+
+.section {
+	width: 100%;
+	min-height: 80px;
+	text-align: center; padding-top : 15px;
+	font-family: 'Open Sans', Sans-serif;
+	position:relative; 
+
+
+}
+.glyphicon {
+ color: white;
+}
+.sml-navbar-collapse a:hover {
+
+background-color: silver;
+
+}
+
+.sml-brand {
+font-weight: bold;
+color:  #29abe1;
+}
+.sml-navbar {
+background-color: #333;
+max-height: 20px !important;
+
+}
+
+.moreclick {
+	cursor: pointer;
+	width: 100%; 
+	margin-top : 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+.moreclick .cdiv {
+	width:100%;
+	height: 100%;
+	
+}
+.snippet {
+	
+	font-size: 16pt;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 950px;
+}
+
+.snippet h1 {
+
+	 font-weight: bold !important;
+}
+.details {
+	border-top: 3px dotted white;
+	display: none;
+	
+}
+.details h1 {
+font-size: 16pt;
+padding: 5px 0 10px 0;
+}
+
+.details p {
+font-size: 12pt;
+
+
+}
+
+.details li {
+font-size: 12pt;
+padding-bottom: 10px;
+
+}
+.details li:before {
+
+content:"->";
+}
+.section p {
+	padding: 0 0 16px 0;
+}
+/** green */
+.s1 {
+	background-color: #8cc543;
+}
+
+.s2 {
+	background-color: white;
+}
+
+.s2 .glyphicon {
+
+color:  #29abe1;
+}
+
+/** blue */
+.s3 {
+	background-color: #29abe1;
+	color: white;
+}
+
+/** mustard */
+.s4 {
+	background-color: #fbd620;
+}
+
+.s5 {
+	background-color: gray;
+	color: white;
+}
+
+.s6 {
+	background-color: #fcf8e3;
+	color: black;
+}
+
+.s7 {
+	background-color: #ffffff;
+	color: black;
+}
+
+.section-foot {
+	text-align: center;
+	width: 100%;
+	
+}
+.clearboth {
+	
+	clear:both;
+}
+
+#container {
+
+width; 100% !important;
+}
+
+@media only screen and (max-width: 1140px) {
+	#wrapper {
+		max-width: 980px;
+	}
+
+       #content {
+       max-width: 940px;
+       }
+
+
+	#navgrid {
+		background-size: 120% 120%;
+
+		min-height: 400px;
+	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+.sml-navbar-collapse a:hover {
+
+background-color: silver !important;
+
+}
+
+
+
+.sml-navbar-collapse {
+opacity: 1
+z-index: 10001;
+background-color: #333;
+;
+
+}
+
+.sml-navbar-collapse  a {
+font-size: 14pt;
+color: white !important; 
+border-bottom: thin solid gray;
+}
+	#subtitles {
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 100%;
+		color: white;;
+
+		text-shadow: -1px 0 #29abe1, 0 1px silver, 1px 0 silver, 0 -1px #29abe1;
+	}
+	#wrapper {
+		max-width: 480px;
+	}
+	#navgrid {
+		min-height: 240px;
+		background-size: 120% 120%;
+	}
+	#navgrid .snippet {
+		margin: 0 auto;
+		position: relative;
+	}
+	#navgrid h3 {
+		padding: 10px 0 10px 0;
+	}
+
+	#navgrid  img {
+		width: 380px;
+	}
+	.mobile1 {
+	float: none;
+
+	}
+}
